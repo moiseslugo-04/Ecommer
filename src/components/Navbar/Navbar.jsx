@@ -5,11 +5,11 @@ import { DarkModeIcon, LightModeIcon, ShoppingCartIcon } from '../Icons/Icons'
 import './Navbar.css'
 export function Navbar() {
   const { toggleTheme, theme } = useTheme()
-  const { dispatch } = useCart()
+  const { state, dispatch } = useCart()
   const handleToggleCart = () => {
     dispatch({ type: 'TOGGLE_CART' })
   }
-  const quantity = 4
+  const quantity = state.totalItems
   return (
     <nav className='navbar'>
       <h1 className='logo'>Shopping Lufy</h1>
