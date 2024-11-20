@@ -1,0 +1,23 @@
+body.light {
+  --background-color: #f3f4f6;
+  --primary-color: #ffffff;
+  --secondary-color: #1f2937;
+  --text-color: #374151;
+  --title-color: #111827;
+  --button-color: #000000;
+  --button-hover-color: #000000da;
+  --border-color: #000;
+  --icon-hover: #37415154;
+}
+
+body.dark {
+  --background-color: #111827;
+  --primary-color: #1f2937;
+  --secondary-color: #1f2937;
+  --text-color: #d1d5db;
+  --title-color: #ffffff;
+  --button-color: #ffffff;
+  --button-hover-color: #ffffffce;
+  --icon-hover: #10151bfa;
+  --border-color: #fff;
+}

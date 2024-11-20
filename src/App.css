@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+button,
+a {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+.app {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  position: relative;
+}
+.app .title {
+  color: var(--title-color);
+}
+header {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+}
+main {
+  width: 100%;
+  max-width: 1700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+footer {
+  padding: 20px;
+  margin-top: auto;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul li a {
+  text-decoration: underline;
+  color: #007bff;
+}

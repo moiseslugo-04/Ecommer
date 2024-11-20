@@ -1,0 +1,9 @@
+svg {
+  fill: var(--text-color);
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+svg.light-mode-icon {
+  fill: #eab308;
+}
